@@ -34,3 +34,7 @@
 .button:hover {
   text-decoration: underline;
 }
+
+.button:active {
+  color: var(--primary-color-highlight);
+}
