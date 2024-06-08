@@ -40,7 +40,7 @@ const Navigation = ({ locale, desktop }: Props) => {
         </Link>
       </DropdownLink>
       <DropdownLink text={l.nav.students} desktop={desktop}>
-        <Link href="https://www.chalmers.se/utbildning/dina-studier/hitta-kurs-och-programplaner/programplaner/TKITE/?acYear=2019%2F2020&year=1&view=year&halftime=">
+        <Link href="https://www.chalmers.se/utbildning/dina-studier/hitta-kurs-och-programplaner/programplaner/TKITE/?acYear=2024%2F2025&year=1&view=year&halftime=">
           {l.nav.courses}&nbsp;&#8599;
         </Link>
         <Link href="https://cloud.timeedit.net/chalmers/web/b1/">
@@ -64,7 +64,7 @@ const Navigation = ({ locale, desktop }: Props) => {
         {l.nav.services}
       </Link>
       <Link
-        href="/business"
+        href="https://armit.chalmers.it/"
         className={`${styles.navLink} ${playfair.className}`}
       >
         {l.nav.business}
